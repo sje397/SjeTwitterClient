@@ -54,10 +54,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 Last project needed latest version of Async HTTP to remove some errors/warnings, but using it in this project caused auth errors on twitter, which took some time to work out
-Breakponts failing for async tasks is a major pain!
-Persisting data properly using ActiveAndroid was difficult - replacing user objects deleted other tweets. Had to check for existing users.
 
-Describe any challenges encountered while building the app.
+Breakponts failing for async tasks is a major pain!
+
+Persisting data properly using ActiveAndroid was difficult - replacing user objects deleted other tweets. Had to 
+check for existing users.
 
 ## Open-source libraries used
 
