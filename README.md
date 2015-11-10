@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 * [x] Improve the user interface and theme the app to feel "twitter branded"
   * Uses twitter image for tweet button
   * Material design style tweet button
-  * Process 'action done' on the tweet text area
+  * Process 'action send' on the tweet text area
   * Tweet area text limited to 140 chars
 
 The following **bonus** features are implemented:
