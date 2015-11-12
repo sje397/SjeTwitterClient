@@ -14,15 +14,17 @@ import org.joda.time.format.PeriodFormatterBuilder;
  */
 public final class AgeFormatter {
     private static PeriodFormatter ageFormatter = new PeriodFormatterBuilder()
-            .printZeroRarelyLast()
             .appendLiteral("{fa-clock-o} ")
+            .appendWeeks()
+            .appendSuffix("w")
+            .appendSeparator(" ")
             .appendDays()
             .appendSuffix("d")
             .appendSeparator(" ")
             .appendHours()
             .appendSuffix("h")
             .appendSeparator(" ")
-            .printZeroIfSupported()
+            .printZeroRarelyLast()
             .appendMinutes()
             .appendSuffix("m")
             .toFormatter();
@@ -31,7 +33,7 @@ public final class AgeFormatter {
 
     public static String getAgeString(final DateTime time) {
         Duration age = new Duration(time, DateTime.now());
-        Period agePeriod = age.toPeriod(PeriodType.standard());
+        Period agePeriod = age.toPeriod().normalizedStandard();
         return ageFormatter.print(agePeriod);
     }
 }

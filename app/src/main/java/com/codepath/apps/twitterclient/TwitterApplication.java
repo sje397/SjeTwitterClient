@@ -30,7 +30,7 @@ public class TwitterApplication extends Application {
         ActiveAndroid.initialize(this, true);
 	}
 
-	public static TwitterClient getRestClient() {
-		return (TwitterClient) TwitterClient.getInstance(TwitterClient.class, TwitterApplication.context);
+	public static TwitterClient getTwitterClient() {
+		return (TwitterClient) TwitterClient.getInstance(TwitterClient.class, context);
 	}
 }

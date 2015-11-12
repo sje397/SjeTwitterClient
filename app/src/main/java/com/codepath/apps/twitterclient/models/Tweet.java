@@ -22,6 +22,10 @@ import java.util.Locale;
  */
 @Table(name = "tweets")
 public class Tweet extends Model {
+    public enum Type {
+        NORMAL, MENTION
+    }
+
     private static final DateTimeFormatter format =
             DateTimeFormat.forPattern("EEE MMM dd HH:mm:ss Z yyyy").withLocale(Locale.ENGLISH);
 
@@ -33,6 +37,8 @@ public class Tweet extends Model {
     private User user;
     @Column(name = "created")
     private long createdAt;
+    @Column(name = "tweet_type")
+    private Type type;
 
     public Tweet() {
         super();
@@ -54,20 +60,25 @@ public class Tweet extends Model {
         return user;
     }
 
-    public static Tweet fromJSONObject(JSONObject obj) throws JSONException, ParseException {
+    public Type getType() {
+        return type;
+    }
+
+    public static Tweet fromJSONObject(JSONObject obj, Type type) throws JSONException, ParseException {
         Tweet tweet = new Tweet();
         tweet.body = obj.getString("text");
         tweet.uid = obj.getLong("id");
         tweet.createdAt = format.parseDateTime(obj.getString("created_at")).getMillis();
         tweet.user = User.fromJSONObject(obj.getJSONObject("user"));
+        tweet.type = type;
 
         return tweet;
     }
 
-    public static List<Tweet> fromJSONArray(JSONArray array) throws JSONException, ParseException {
+    public static List<Tweet> fromJSONArray(JSONArray array, Type type) throws JSONException, ParseException {
         ArrayList<Tweet> tweets = new ArrayList<>();
         for(int i = 0; i < array.length(); i++) {
-            tweets.add(fromJSONObject(array.getJSONObject(i)));
+            tweets.add(fromJSONObject(array.getJSONObject(i), type));
         }
 
         return tweets;

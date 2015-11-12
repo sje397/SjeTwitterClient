@@ -23,6 +23,12 @@ public class User extends Model {
     private String screenName;
     @Column(name = "profile_image_url")
     private String profileImageUrl;
+    @Column(name = "tagline")
+    private String tagline;
+    @Column(name = "followers_count")
+    private long followersCount;
+    @Column(name = "following_count")
+    private long followingCount;
 
     public User() {
         super();
@@ -44,6 +50,18 @@ public class User extends Model {
         return profileImageUrl;
     }
 
+    public String getTagline() {
+        return tagline;
+    }
+
+    public long getFollowersCount() {
+        return followersCount;
+    }
+
+    public long getFollowingCount() {
+        return followingCount;
+    }
+
     public static User fromJSONObject(JSONObject obj) throws JSONException {
         long uid = obj.getLong("id");
 
@@ -59,6 +77,9 @@ public class User extends Model {
         user.uid = uid;
         user.screenName = obj.getString("screen_name");
         user.profileImageUrl = obj.getString("profile_image_url");
+        user.tagline = obj.getString("description");
+        user.followersCount = obj.getLong("followers_count");
+        user.followingCount = obj.getLong("friends_count");
 
         return user;
     }

@@ -2,8 +2,10 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:context="com.codepath.apps.twitterclient.TimelineActivity">
 
     <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
@@ -16,21 +18,20 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v4.widget.SwipeRefreshLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/swipeContainer"
-        android:layout_width="wrap_content"
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        app:pstsShouldExpand="true"
+        app:pstsTextAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/view"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/view" >
-
-        <ListView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/lvTweets" />
-
-    </android.support.v4.widget.SwipeRefreshLayout>
+        android:background="@android:color/white"
+        android:layout_below="@id/tabs"/>
 
 </RelativeLayout>
 <!-- From: file:/Users/sellis/repo/SjeTwitterClient/app/src/main/res/layout/activity_timeline.xml -->

@@ -8,6 +8,7 @@ import android.content.Context;
 
 import com.codepath.oauth.OAuthBaseClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
 /*
@@ -54,5 +55,47 @@ public class TwitterClient extends OAuthBaseClient {
         RequestParams params = new RequestParams();
         params.put("status", text);
         client.post(apiUrl, params, handler);
+    }
+
+    public void getMentionsTimeline(long lastId, int pageSize, JsonHttpResponseHandler handler) {
+        String apiUrl = getApiUrl("statuses/mentions_timeline.json");
+        // Can specify query string params directly or through RequestParams.
+        RequestParams params = new RequestParams();
+        params.put("count", pageSize);
+        if(lastId != 0) {
+            params.put("max_id", lastId - 1);
+        }
+        client.get(apiUrl, params, handler);
+    }
+
+    public void getUserTimeline(String screenName, long lastId, int pageSize, JsonHttpResponseHandler handler) {
+        String apiUrl = getApiUrl("statuses/user_timeline.json");
+        // Can specify query string params directly or through RequestParams.
+        RequestParams params = new RequestParams();
+        params.put("screen_name", screenName);
+        params.put("count", pageSize);
+        if(lastId != 0) {
+            params.put("max_id", lastId - 1);
+        }
+        client.get(apiUrl, params, handler);
+    }
+
+    public void getUserInfo(String screenName, JsonHttpResponseHandler handler) {
+        if(screenName == null) {
+            getMyInfo(handler);
+        }
+
+        String apiUrl = getApiUrl("users/lookup.json");
+        // Can specify query string params directly or through RequestParams.
+        RequestParams params = new RequestParams();
+        params.put("screen_name", screenName);
+        params.put("include_entities", false);
+        client.get(apiUrl, params, handler);
+    }
+
+    private void getMyInfo(JsonHttpResponseHandler handler) {
+        String apiUrl = getApiUrl("account/verify_credentials.json");
+        // Can specify query string params directly or through RequestParams.
+        client.get(apiUrl, null, handler);
     }
 }

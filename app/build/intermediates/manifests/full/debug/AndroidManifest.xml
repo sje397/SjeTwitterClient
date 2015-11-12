@@ -22,7 +22,7 @@
         android:theme="@style/AppTheme" >
         <meta-data
             android:name="AA_DB_NAME"
-            android:value="SjeTwitterClient4.db" />
+            android:value="SjeTwitterClient6.db" />
         <meta-data
             android:name="AA_DB_VERSION"
             android:value="1" />
@@ -57,6 +57,8 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity android:name="com.codepath.apps.twitterclient.TweetActivity" >
+        </activity>
+        <activity android:name="com.codepath.apps.twitterclient.ProfileActivity" >
         </activity>
     </application>
 
