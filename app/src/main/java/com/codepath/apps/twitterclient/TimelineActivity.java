@@ -48,8 +48,7 @@ public class TimelineActivity extends AppCompatActivity {
     private ViewPager pager;
     private PagerSlidingTabStrip tabs;
 
-    private HomeTimelineFragment tweetsFragment;
-    private MentionsTimelineFragment mentionsTimelineFragment;
+    private TweetsPagerAdapter pagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,12 +58,10 @@ public class TimelineActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         pager = (ViewPager) findViewById(R.id.viewpager);
-        TweetsPagerAdapter pagerAdapter = new TweetsPagerAdapter(getSupportFragmentManager());
+        pagerAdapter = new TweetsPagerAdapter(getSupportFragmentManager());
         pager.setAdapter(pagerAdapter);
         tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
         tabs.setViewPager(pager);
-
-        tweetsFragment = (HomeTimelineFragment) pagerAdapter.getItem(0);
     }
 
     @Override
@@ -109,6 +106,7 @@ public class TimelineActivity extends AppCompatActivity {
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 try {
                     Tweet tweet = Tweet.fromJSONObject(response, Tweet.Type.NORMAL);
+                    HomeTimelineFragment tweetsFragment = (HomeTimelineFragment) pagerAdapter.getItem(0);
                     tweetsFragment.insertTweet(tweet);
                 } catch (JSONException | ParseException ex) {
                     ex.printStackTrace();
@@ -136,16 +134,20 @@ public class TimelineActivity extends AppCompatActivity {
 
     private static class TweetsPagerAdapter extends FragmentPagerAdapter {
         private static String[] titles = {"Home", "Mentions"};
+        private HomeTimelineFragment homeFragment;
+        private MentionsTimelineFragment mentionsTimelineFragment;
 
         public TweetsPagerAdapter(FragmentManager fragmentManager) {
             super(fragmentManager);
+            homeFragment = new HomeTimelineFragment();
+            mentionsTimelineFragment = new MentionsTimelineFragment();
         }
 
         @Override
         public Fragment getItem(int position) {
             switch(position) {
-                case 0: return new HomeTimelineFragment();
-                default: return new MentionsTimelineFragment();
+                case 0: return homeFragment;
+                default: return mentionsTimelineFragment;
             }
         }
 

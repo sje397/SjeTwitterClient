@@ -2360,9 +2360,9 @@ containing a value of this type.
         public static final int icon=0x7f0d0042;
         public static final int ifRoom=0x7f0d0034;
         public static final int image=0x7f0d003f;
-        public static final int imageView=0x7f0d0069;
         public static final int info=0x7f0d008d;
         public static final int item_touch_helper_previous_elevation=0x7f0d0005;
+        public static final int ivPic=0x7f0d0069;
         public static final int ivProfile=0x7f0d007f;
         public static final int left=0x7f0d0022;
         public static final int line1=0x7f0d0087;
@@ -3048,6 +3048,7 @@ containing a value of this type.
         public static final int title_activity_timeline=0x7f070021;
         public static final int tweet_button=0x7f070022;
         public static final int tweet_prompt=0x7f070023;
+        public static final int user_title=0x7f070024;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0a0080;
@@ -3396,33 +3397,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.codepath.apps.restclienttemplate:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.codepath.apps.restclienttemplate:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.codepath.apps.restclienttemplate:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.codepath.apps.restclienttemplate:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.codepath.apps.restclienttemplate:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.codepath.apps.restclienttemplate:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.codepath.apps.restclienttemplate:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.codepath.apps.restclienttemplate:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.codepath.apps.restclienttemplate:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.codepath.apps.restclienttemplate:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.codepath.apps.restclienttemplate:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.codepath.apps.restclienttemplate:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.codepath.apps.restclienttemplate:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.codepath.apps.restclienttemplate:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.codepath.apps.restclienttemplate:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.codepath.apps.restclienttemplate:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.codepath.apps.restclienttemplate:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.codepath.apps.restclienttemplate:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.codepath.apps.restclienttemplate:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.codepath.apps.restclienttemplate:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.codepath.apps.restclienttemplate:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.codepath.apps.restclienttemplate:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.codepath.apps.restclienttemplate:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.codepath.apps.restclienttemplate:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.codepath.apps.restclienttemplate:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.codepath.apps.restclienttemplate:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.codepath.apps.restclienttemplate:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.codepath.apps.twitterclient:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.codepath.apps.twitterclient:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.codepath.apps.twitterclient:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.codepath.apps.twitterclient:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.codepath.apps.twitterclient:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.codepath.apps.twitterclient:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.codepath.apps.twitterclient:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.codepath.apps.twitterclient:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.codepath.apps.twitterclient:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.codepath.apps.twitterclient:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.codepath.apps.twitterclient:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.codepath.apps.twitterclient:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.codepath.apps.twitterclient:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.codepath.apps.twitterclient:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.codepath.apps.twitterclient:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.codepath.apps.twitterclient:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.codepath.apps.twitterclient:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.codepath.apps.twitterclient:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.codepath.apps.twitterclient:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.codepath.apps.twitterclient:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.codepath.apps.twitterclient:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.codepath.apps.twitterclient:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.codepath.apps.twitterclient:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.codepath.apps.twitterclient:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.codepath.apps.twitterclient:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.codepath.apps.twitterclient:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.codepath.apps.twitterclient:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3462,17 +3463,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f0100c9
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#background}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:background
+          @attr name com.codepath.apps.twitterclient:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3480,11 +3481,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:backgroundSplit
+          @attr name com.codepath.apps.twitterclient:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3492,11 +3493,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:backgroundStacked
+          @attr name com.codepath.apps.twitterclient:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3508,11 +3509,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:contentInsetEnd
+          @attr name com.codepath.apps.twitterclient:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3524,11 +3525,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:contentInsetLeft
+          @attr name com.codepath.apps.twitterclient:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3540,11 +3541,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:contentInsetRight
+          @attr name com.codepath.apps.twitterclient:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3556,21 +3557,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:contentInsetStart
+          @attr name com.codepath.apps.twitterclient:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:customNavigationLayout
+          @attr name com.codepath.apps.twitterclient:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3588,21 +3589,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:displayOptions
+          @attr name com.codepath.apps.twitterclient:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:divider
+          @attr name com.codepath.apps.twitterclient:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3614,11 +3615,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:elevation
+          @attr name com.codepath.apps.twitterclient:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#height}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3630,11 +3631,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:height
+          @attr name com.codepath.apps.twitterclient:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3644,51 +3645,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:hideOnContentScroll
+          @attr name com.codepath.apps.twitterclient:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:homeAsUpIndicator
+          @attr name com.codepath.apps.twitterclient:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:homeLayout
+          @attr name com.codepath.apps.twitterclient:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:icon
+          @attr name com.codepath.apps.twitterclient:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:indeterminateProgressStyle
+          @attr name com.codepath.apps.twitterclient:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3700,21 +3701,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:itemPadding
+          @attr name com.codepath.apps.twitterclient:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:logo
+          @attr name com.codepath.apps.twitterclient:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3728,21 +3729,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:navigationMode
+          @attr name com.codepath.apps.twitterclient:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:popupTheme
+          @attr name com.codepath.apps.twitterclient:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3754,21 +3755,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:progressBarPadding
+          @attr name com.codepath.apps.twitterclient:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:progressBarStyle
+          @attr name com.codepath.apps.twitterclient:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3778,21 +3779,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:subtitle
+          @attr name com.codepath.apps.twitterclient:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:subtitleTextStyle
+          @attr name com.codepath.apps.twitterclient:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#title}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3802,17 +3803,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:title
+          @attr name com.codepath.apps.twitterclient:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:titleTextStyle
+          @attr name com.codepath.apps.twitterclient:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -3864,12 +3865,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.codepath.apps.restclienttemplate:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.codepath.apps.restclienttemplate:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.codepath.apps.restclienttemplate:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.codepath.apps.restclienttemplate:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.codepath.apps.restclienttemplate:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.codepath.apps.restclienttemplate:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.codepath.apps.twitterclient:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.codepath.apps.twitterclient:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.codepath.apps.twitterclient:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.codepath.apps.twitterclient:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.codepath.apps.twitterclient:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.codepath.apps.twitterclient:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -3883,17 +3884,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#background}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:background
+          @attr name com.codepath.apps.twitterclient:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3901,21 +3902,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:backgroundSplit
+          @attr name com.codepath.apps.twitterclient:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:closeItemLayout
+          @attr name com.codepath.apps.twitterclient:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#height}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3927,27 +3928,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:height
+          @attr name com.codepath.apps.twitterclient:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:subtitleTextStyle
+          @attr name com.codepath.apps.twitterclient:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:titleTextStyle
+          @attr name com.codepath.apps.twitterclient:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -3956,8 +3957,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.codepath.apps.restclienttemplate:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.codepath.apps.restclienttemplate:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.codepath.apps.twitterclient:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.codepath.apps.twitterclient:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -3966,17 +3967,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:expandActivityOverflowButtonDrawable
+          @attr name com.codepath.apps.twitterclient:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3986,7 +3987,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:initialActivityCount
+          @attr name com.codepath.apps.twitterclient:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -3996,11 +3997,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.codepath.apps.restclienttemplate:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.codepath.apps.restclienttemplate:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.codepath.apps.restclienttemplate:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.codepath.apps.restclienttemplate:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.codepath.apps.restclienttemplate:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.codepath.apps.twitterclient:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.codepath.apps.twitterclient:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.codepath.apps.twitterclient:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.codepath.apps.twitterclient:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.codepath.apps.twitterclient:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4020,53 +4021,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:buttonPanelSideLayout
+          @attr name com.codepath.apps.twitterclient:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:listItemLayout
+          @attr name com.codepath.apps.twitterclient:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:listLayout
+          @attr name com.codepath.apps.twitterclient:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:multiChoiceItemLayout
+          @attr name com.codepath.apps.twitterclient:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:singleChoiceItemLayout
+          @attr name com.codepath.apps.twitterclient:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -4076,8 +4077,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation com.codepath.apps.restclienttemplate:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded com.codepath.apps.restclienttemplate:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation com.codepath.apps.twitterclient:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded com.codepath.apps.twitterclient:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -4093,7 +4094,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4105,11 +4106,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:elevation
+          @attr name com.codepath.apps.twitterclient:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#expanded}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4119,7 +4120,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:expanded
+          @attr name com.codepath.apps.twitterclient:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -4128,8 +4129,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.codepath.apps.restclienttemplate:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.codepath.apps.restclienttemplate:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.codepath.apps.twitterclient:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.codepath.apps.twitterclient:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
@@ -4138,7 +4139,7 @@ containing a value of this type.
             0x7f010025, 0x7f010026
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -4154,17 +4155,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:layout_scrollFlags
+          @attr name com.codepath.apps.twitterclient:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:layout_scrollInterpolator
+          @attr name com.codepath.apps.twitterclient:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -4174,7 +4175,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.codepath.apps.restclienttemplate:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.codepath.apps.twitterclient:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -4189,14 +4190,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.codepath.apps.restclienttemplate:textAllCaps
+          @attr name com.codepath.apps.twitterclient:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -4205,7 +4206,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.codepath.apps.restclienttemplate:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.codepath.apps.twitterclient:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -4213,7 +4214,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010028
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -4223,7 +4224,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:allowStacking
+          @attr name com.codepath.apps.twitterclient:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -4232,8 +4233,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.codepath.apps.restclienttemplate:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.codepath.apps.restclienttemplate:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.codepath.apps.twitterclient:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.codepath.apps.twitterclient:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
@@ -4242,7 +4243,7 @@ containing a value of this type.
             0x7f010029, 0x7f01002a
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -4256,11 +4257,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:layout_collapseMode
+          @attr name com.codepath.apps.twitterclient:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -4270,7 +4271,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:layout_collapseParallaxMultiplier
+          @attr name com.codepath.apps.twitterclient:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -4279,20 +4280,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.codepath.apps.restclienttemplate:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.codepath.apps.restclienttemplate:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.codepath.apps.restclienttemplate:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.codepath.apps.restclienttemplate:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.codepath.apps.restclienttemplate:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.codepath.apps.restclienttemplate:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.codepath.apps.restclienttemplate:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.codepath.apps.restclienttemplate:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.codepath.apps.restclienttemplate:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.codepath.apps.restclienttemplate:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.codepath.apps.restclienttemplate:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title com.codepath.apps.restclienttemplate:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.codepath.apps.restclienttemplate:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.codepath.apps.restclienttemplate:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.codepath.apps.twitterclient:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.codepath.apps.twitterclient:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.codepath.apps.twitterclient:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.codepath.apps.twitterclient:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.codepath.apps.twitterclient:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.codepath.apps.twitterclient:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.codepath.apps.twitterclient:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.codepath.apps.twitterclient:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.codepath.apps.twitterclient:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.codepath.apps.twitterclient:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.codepath.apps.twitterclient:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title com.codepath.apps.twitterclient:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.codepath.apps.twitterclient:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.codepath.apps.twitterclient:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -4316,7 +4317,7 @@ containing a value of this type.
             0x7f010036, 0x7f010037
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4337,21 +4338,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:collapsedTitleGravity
+          @attr name com.codepath.apps.twitterclient:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:collapsedTitleTextAppearance
+          @attr name com.codepath.apps.twitterclient:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4362,11 +4363,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:contentScrim
+          @attr name com.codepath.apps.twitterclient:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4387,11 +4388,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:expandedTitleGravity
+          @attr name com.codepath.apps.twitterclient:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4403,11 +4404,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:expandedTitleMargin
+          @attr name com.codepath.apps.twitterclient:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4419,11 +4420,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:expandedTitleMarginBottom
+          @attr name com.codepath.apps.twitterclient:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4435,11 +4436,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:expandedTitleMarginEnd
+          @attr name com.codepath.apps.twitterclient:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4451,11 +4452,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:expandedTitleMarginStart
+          @attr name com.codepath.apps.twitterclient:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4467,21 +4468,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:expandedTitleMarginTop
+          @attr name com.codepath.apps.twitterclient:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:expandedTitleTextAppearance
+          @attr name com.codepath.apps.twitterclient:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4492,11 +4493,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:statusBarScrim
+          @attr name com.codepath.apps.twitterclient:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#title}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4506,11 +4507,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:title
+          @attr name com.codepath.apps.twitterclient:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4520,17 +4521,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:titleEnabled
+          @attr name com.codepath.apps.twitterclient:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 13;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:toolbarId
+          @attr name com.codepath.apps.twitterclient:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CompoundButton.
@@ -4540,8 +4541,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.codepath.apps.restclienttemplate:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.codepath.apps.restclienttemplate:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.codepath.apps.twitterclient:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.codepath.apps.twitterclient:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -4557,7 +4558,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -4568,11 +4569,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:buttonTint
+          @attr name com.codepath.apps.twitterclient:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -4588,7 +4589,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:buttonTintMode
+          @attr name com.codepath.apps.twitterclient:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -4597,8 +4598,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines com.codepath.apps.restclienttemplate:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.codepath.apps.restclienttemplate:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines com.codepath.apps.twitterclient:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.codepath.apps.twitterclient:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -4607,23 +4608,23 @@ containing a value of this type.
             0x7f01003a, 0x7f01003b
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:keylines
+          @attr name com.codepath.apps.twitterclient:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:statusBarBackground
+          @attr name com.codepath.apps.twitterclient:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -4633,10 +4634,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.codepath.apps.restclienttemplate:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.codepath.apps.restclienttemplate:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.codepath.apps.restclienttemplate:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.codepath.apps.restclienttemplate:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.codepath.apps.twitterclient:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.codepath.apps.twitterclient:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.codepath.apps.twitterclient:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.codepath.apps.twitterclient:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -4655,17 +4656,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:layout_anchor
+          @attr name com.codepath.apps.twitterclient:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4690,11 +4691,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:layout_anchorGravity
+          @attr name com.codepath.apps.twitterclient:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4704,11 +4705,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:layout_behavior
+          @attr name com.codepath.apps.twitterclient:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4718,7 +4719,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:layout_keyline
+          @attr name com.codepath.apps.twitterclient:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -4727,14 +4728,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.codepath.apps.restclienttemplate:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.codepath.apps.restclienttemplate:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.codepath.apps.restclienttemplate:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.codepath.apps.restclienttemplate:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.codepath.apps.restclienttemplate:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.codepath.apps.restclienttemplate:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.codepath.apps.restclienttemplate:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.codepath.apps.restclienttemplate:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.codepath.apps.twitterclient:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.codepath.apps.twitterclient:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.codepath.apps.twitterclient:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.codepath.apps.twitterclient:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.codepath.apps.twitterclient:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.codepath.apps.twitterclient:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.codepath.apps.twitterclient:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.codepath.apps.twitterclient:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -4750,7 +4751,7 @@ containing a value of this type.
             0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4762,11 +4763,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:arrowHeadLength
+          @attr name com.codepath.apps.twitterclient:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4778,11 +4779,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:arrowShaftLength
+          @attr name com.codepath.apps.twitterclient:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4794,11 +4795,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:barLength
+          @attr name com.codepath.apps.twitterclient:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#color}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4809,11 +4810,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:color
+          @attr name com.codepath.apps.twitterclient:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4825,11 +4826,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:drawableSize
+          @attr name com.codepath.apps.twitterclient:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4841,11 +4842,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:gapBetweenBars
+          @attr name com.codepath.apps.twitterclient:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4855,11 +4856,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:spinBars
+          @attr name com.codepath.apps.twitterclient:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4871,7 +4872,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:thickness
+          @attr name com.codepath.apps.twitterclient:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -4881,13 +4882,13 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #FloatingActionButton_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.codepath.apps.restclienttemplate:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.codepath.apps.restclienttemplate:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth com.codepath.apps.restclienttemplate:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation com.codepath.apps.restclienttemplate:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize com.codepath.apps.restclienttemplate:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.codepath.apps.restclienttemplate:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor com.codepath.apps.restclienttemplate:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.codepath.apps.twitterclient:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.codepath.apps.twitterclient:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth com.codepath.apps.twitterclient:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation com.codepath.apps.twitterclient:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize com.codepath.apps.twitterclient:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.codepath.apps.twitterclient:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor com.codepath.apps.twitterclient:rippleColor}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_android_background
            @see #FloatingActionButton_backgroundTint
@@ -4909,7 +4910,7 @@ containing a value of this type.
         */
         public static final int FloatingActionButton_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4920,11 +4921,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:backgroundTint
+          @attr name com.codepath.apps.twitterclient:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4940,11 +4941,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:backgroundTintMode
+          @attr name com.codepath.apps.twitterclient:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4956,11 +4957,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:borderWidth
+          @attr name com.codepath.apps.twitterclient:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4972,11 +4973,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:elevation
+          @attr name com.codepath.apps.twitterclient:elevation
         */
         public static final int FloatingActionButton_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4989,11 +4990,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:fabSize
+          @attr name com.codepath.apps.twitterclient:fabSize
         */
         public static final int FloatingActionButton_fabSize = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5005,11 +5006,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pressedTranslationZ
+          @attr name com.codepath.apps.twitterclient:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -5020,7 +5021,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:rippleColor
+          @attr name com.codepath.apps.twitterclient:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 2;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -5031,7 +5032,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.codepath.apps.restclienttemplate:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.codepath.apps.twitterclient:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -5053,7 +5054,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -5063,7 +5064,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:foregroundInsidePadding
+          @attr name com.codepath.apps.twitterclient:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -5077,10 +5078,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.codepath.apps.restclienttemplate:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.codepath.apps.restclienttemplate:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.codepath.apps.restclienttemplate:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.codepath.apps.restclienttemplate:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.codepath.apps.twitterclient:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.codepath.apps.twitterclient:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.codepath.apps.twitterclient:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.codepath.apps.twitterclient:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -5128,17 +5129,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:divider
+          @attr name com.codepath.apps.twitterclient:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5150,11 +5151,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:dividerPadding
+          @attr name com.codepath.apps.twitterclient:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5164,11 +5165,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:measureWithLargestChild
+          @attr name com.codepath.apps.twitterclient:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5183,7 +5184,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:showDividers
+          @attr name com.codepath.apps.twitterclient:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -5322,9 +5323,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.codepath.apps.restclienttemplate:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.codepath.apps.restclienttemplate:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.codepath.apps.restclienttemplate:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.codepath.apps.twitterclient:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.codepath.apps.twitterclient:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.codepath.apps.twitterclient:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -5338,7 +5339,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.codepath.apps.restclienttemplate:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.codepath.apps.twitterclient:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -5366,17 +5367,17 @@ containing a value of this type.
             0x7f010053
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionLayout
+          @attr name com.codepath.apps.twitterclient:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5386,11 +5387,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:actionProviderClass
+          @attr name com.codepath.apps.twitterclient:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5400,7 +5401,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:actionViewClass
+          @attr name com.codepath.apps.twitterclient:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -5482,7 +5483,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5498,7 +5499,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:showAsAction
+          @attr name com.codepath.apps.twitterclient:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -5514,7 +5515,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.codepath.apps.restclienttemplate:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.codepath.apps.twitterclient:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -5572,7 +5573,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -5582,7 +5583,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:preserveIconSpacing
+          @attr name com.codepath.apps.twitterclient:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a NavigationView.
@@ -5594,13 +5595,13 @@ containing a value of this type.
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation com.codepath.apps.restclienttemplate:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout com.codepath.apps.restclienttemplate:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground com.codepath.apps.restclienttemplate:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint com.codepath.apps.restclienttemplate:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance com.codepath.apps.restclienttemplate:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor com.codepath.apps.restclienttemplate:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu com.codepath.apps.restclienttemplate:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation com.codepath.apps.twitterclient:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout com.codepath.apps.twitterclient:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground com.codepath.apps.twitterclient:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint com.codepath.apps.twitterclient:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance com.codepath.apps.twitterclient:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor com.codepath.apps.twitterclient:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu com.codepath.apps.twitterclient:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -5637,7 +5638,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5649,31 +5650,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:elevation
+          @attr name com.codepath.apps.twitterclient:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:headerLayout
+          @attr name com.codepath.apps.twitterclient:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:itemBackground
+          @attr name com.codepath.apps.twitterclient:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5684,21 +5685,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:itemIconTint
+          @attr name com.codepath.apps.twitterclient:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:itemTextAppearance
+          @attr name com.codepath.apps.twitterclient:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5709,17 +5710,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:itemTextColor
+          @attr name com.codepath.apps.twitterclient:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:menu
+          @attr name com.codepath.apps.twitterclient:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PagerSlidingTabStrip.
@@ -5728,17 +5729,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor com.codepath.apps.restclienttemplate:pstsDividerColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPadding com.codepath.apps.restclienttemplate:pstsDividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor com.codepath.apps.restclienttemplate:pstsIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight com.codepath.apps.restclienttemplate:pstsIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset com.codepath.apps.restclienttemplate:pstsScrollOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand com.codepath.apps.restclienttemplate:pstsShouldExpand}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground com.codepath.apps.restclienttemplate:pstsTabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight com.codepath.apps.restclienttemplate:pstsTabPaddingLeftRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps com.codepath.apps.restclienttemplate:pstsTextAllCaps}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor com.codepath.apps.restclienttemplate:pstsUnderlineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight com.codepath.apps.restclienttemplate:pstsUnderlineHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor com.codepath.apps.twitterclient:pstsDividerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPadding com.codepath.apps.twitterclient:pstsDividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor com.codepath.apps.twitterclient:pstsIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight com.codepath.apps.twitterclient:pstsIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset com.codepath.apps.twitterclient:pstsScrollOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand com.codepath.apps.twitterclient:pstsShouldExpand}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground com.codepath.apps.twitterclient:pstsTabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight com.codepath.apps.twitterclient:pstsTabPaddingLeftRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps com.codepath.apps.twitterclient:pstsTextAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor com.codepath.apps.twitterclient:pstsUnderlineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight com.codepath.apps.twitterclient:pstsUnderlineHeight}</code></td><td></td></tr>
            </table>
            @see #PagerSlidingTabStrip_pstsDividerColor
            @see #PagerSlidingTabStrip_pstsDividerPadding
@@ -5758,7 +5759,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010063, 0x7f010064, 0x7f010065
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsDividerColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsDividerColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5769,11 +5770,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pstsDividerColor
+          @attr name com.codepath.apps.twitterclient:pstsDividerColor
         */
         public static final int PagerSlidingTabStrip_pstsDividerColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsDividerPadding}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsDividerPadding}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5785,11 +5786,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pstsDividerPadding
+          @attr name com.codepath.apps.twitterclient:pstsDividerPadding
         */
         public static final int PagerSlidingTabStrip_pstsDividerPadding = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsIndicatorColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsIndicatorColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5800,11 +5801,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pstsIndicatorColor
+          @attr name com.codepath.apps.twitterclient:pstsIndicatorColor
         */
         public static final int PagerSlidingTabStrip_pstsIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsIndicatorHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5816,11 +5817,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pstsIndicatorHeight
+          @attr name com.codepath.apps.twitterclient:pstsIndicatorHeight
         */
         public static final int PagerSlidingTabStrip_pstsIndicatorHeight = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsScrollOffset}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsScrollOffset}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5832,11 +5833,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pstsScrollOffset
+          @attr name com.codepath.apps.twitterclient:pstsScrollOffset
         */
         public static final int PagerSlidingTabStrip_pstsScrollOffset = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsShouldExpand}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsShouldExpand}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5846,21 +5847,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pstsShouldExpand
+          @attr name com.codepath.apps.twitterclient:pstsShouldExpand
         */
         public static final int PagerSlidingTabStrip_pstsShouldExpand = 9;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsTabBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsTabBackground}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:pstsTabBackground
+          @attr name com.codepath.apps.twitterclient:pstsTabBackground
         */
         public static final int PagerSlidingTabStrip_pstsTabBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsTabPaddingLeftRight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsTabPaddingLeftRight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5872,11 +5873,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pstsTabPaddingLeftRight
+          @attr name com.codepath.apps.twitterclient:pstsTabPaddingLeftRight
         */
         public static final int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsTextAllCaps}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsTextAllCaps}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5886,11 +5887,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pstsTextAllCaps
+          @attr name com.codepath.apps.twitterclient:pstsTextAllCaps
         */
         public static final int PagerSlidingTabStrip_pstsTextAllCaps = 10;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsUnderlineColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsUnderlineColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5901,11 +5902,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pstsUnderlineColor
+          @attr name com.codepath.apps.twitterclient:pstsUnderlineColor
         */
         public static final int PagerSlidingTabStrip_pstsUnderlineColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#pstsUnderlineHeight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#pstsUnderlineHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5917,7 +5918,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:pstsUnderlineHeight
+          @attr name com.codepath.apps.twitterclient:pstsUnderlineHeight
         */
         public static final int PagerSlidingTabStrip_pstsUnderlineHeight = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -5927,7 +5928,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.codepath.apps.restclienttemplate:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.codepath.apps.twitterclient:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -5942,7 +5943,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -5952,7 +5953,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:overlapAnchor
+          @attr name com.codepath.apps.twitterclient:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -5961,7 +5962,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.codepath.apps.restclienttemplate:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.codepath.apps.twitterclient:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -5969,7 +5970,7 @@ containing a value of this type.
             0x7f010067
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -5979,7 +5980,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:state_above_anchor
+          @attr name com.codepath.apps.twitterclient:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -5989,10 +5990,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.codepath.apps.restclienttemplate:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.codepath.apps.restclienttemplate:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.codepath.apps.restclienttemplate:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.codepath.apps.restclienttemplate:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.codepath.apps.twitterclient:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.codepath.apps.twitterclient:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.codepath.apps.twitterclient:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.codepath.apps.twitterclient:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -6011,7 +6012,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6021,11 +6022,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:layoutManager
+          @attr name com.codepath.apps.twitterclient:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6035,11 +6036,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:reverseLayout
+          @attr name com.codepath.apps.twitterclient:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6049,11 +6050,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:spanCount
+          @attr name com.codepath.apps.twitterclient:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -6063,7 +6064,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:stackFromEnd
+          @attr name com.codepath.apps.twitterclient:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -6072,7 +6073,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.codepath.apps.restclienttemplate:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.codepath.apps.twitterclient:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -6080,7 +6081,7 @@ containing a value of this type.
             0x7f01006c
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -6088,7 +6089,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:insetForeground
+          @attr name com.codepath.apps.twitterclient:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -6097,7 +6098,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.codepath.apps.restclienttemplate:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.codepath.apps.twitterclient:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
@@ -6105,7 +6106,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01006d
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -6117,7 +6118,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:behavior_overlapTop
+          @attr name com.codepath.apps.twitterclient:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -6130,19 +6131,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.codepath.apps.restclienttemplate:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.codepath.apps.restclienttemplate:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.codepath.apps.restclienttemplate:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.codepath.apps.restclienttemplate:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.codepath.apps.restclienttemplate:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.codepath.apps.restclienttemplate:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.codepath.apps.restclienttemplate:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.codepath.apps.restclienttemplate:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.codepath.apps.restclienttemplate:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.codepath.apps.restclienttemplate:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.codepath.apps.restclienttemplate:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.codepath.apps.restclienttemplate:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.codepath.apps.restclienttemplate:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.codepath.apps.twitterclient:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.codepath.apps.twitterclient:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.codepath.apps.twitterclient:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.codepath.apps.twitterclient:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.codepath.apps.twitterclient:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.codepath.apps.twitterclient:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.codepath.apps.twitterclient:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.codepath.apps.twitterclient:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.codepath.apps.twitterclient:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.codepath.apps.twitterclient:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.codepath.apps.twitterclient:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.codepath.apps.twitterclient:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.codepath.apps.twitterclient:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -6194,27 +6195,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:closeIcon
+          @attr name com.codepath.apps.twitterclient:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:commitIcon
+          @attr name com.codepath.apps.twitterclient:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6224,21 +6225,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:defaultQueryHint
+          @attr name com.codepath.apps.twitterclient:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:goIcon
+          @attr name com.codepath.apps.twitterclient:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6248,31 +6249,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:iconifiedByDefault
+          @attr name com.codepath.apps.twitterclient:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:layout
+          @attr name com.codepath.apps.twitterclient:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:queryBackground
+          @attr name com.codepath.apps.twitterclient:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6282,57 +6283,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:queryHint
+          @attr name com.codepath.apps.twitterclient:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:searchHintIcon
+          @attr name com.codepath.apps.twitterclient:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:searchIcon
+          @attr name com.codepath.apps.twitterclient:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:submitBackground
+          @attr name com.codepath.apps.twitterclient:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:suggestionRowLayout
+          @attr name com.codepath.apps.twitterclient:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:voiceIcon
+          @attr name com.codepath.apps.twitterclient:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SnackbarLayout.
@@ -6342,8 +6343,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation com.codepath.apps.restclienttemplate:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.codepath.apps.restclienttemplate:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation com.codepath.apps.twitterclient:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.codepath.apps.twitterclient:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -6359,7 +6360,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -6371,11 +6372,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:elevation
+          @attr name com.codepath.apps.twitterclient:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -6387,7 +6388,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:maxActionInlineWidth
+          @attr name com.codepath.apps.twitterclient:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -6399,7 +6400,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.codepath.apps.restclienttemplate:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.codepath.apps.twitterclient:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_popupBackground
@@ -6428,13 +6429,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:popupTheme
+          @attr name com.codepath.apps.twitterclient:popupTheme
         */
         public static final int Spinner_popupTheme = 3;
         /** Attributes that can be used with a SwitchCompat.
@@ -6446,13 +6447,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.codepath.apps.restclienttemplate:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.codepath.apps.restclienttemplate:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.codepath.apps.restclienttemplate:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.codepath.apps.restclienttemplate:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.codepath.apps.restclienttemplate:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.codepath.apps.restclienttemplate:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.codepath.apps.restclienttemplate:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.codepath.apps.twitterclient:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.codepath.apps.twitterclient:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.codepath.apps.twitterclient:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.codepath.apps.twitterclient:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.codepath.apps.twitterclient:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.codepath.apps.twitterclient:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.codepath.apps.twitterclient:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -6489,7 +6490,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6499,11 +6500,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:showText
+          @attr name com.codepath.apps.twitterclient:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6513,11 +6514,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:splitTrack
+          @attr name com.codepath.apps.twitterclient:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6529,11 +6530,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:switchMinWidth
+          @attr name com.codepath.apps.twitterclient:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6545,21 +6546,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:switchPadding
+          @attr name com.codepath.apps.twitterclient:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:switchTextAppearance
+          @attr name com.codepath.apps.twitterclient:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6571,17 +6572,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:thumbTextPadding
+          @attr name com.codepath.apps.twitterclient:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#track}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:track
+          @attr name com.codepath.apps.twitterclient:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TabLayout.
@@ -6590,22 +6591,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground com.codepath.apps.restclienttemplate:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart com.codepath.apps.restclienttemplate:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity com.codepath.apps.restclienttemplate:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.codepath.apps.restclienttemplate:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.codepath.apps.restclienttemplate:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth com.codepath.apps.restclienttemplate:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth com.codepath.apps.restclienttemplate:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode com.codepath.apps.restclienttemplate:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding com.codepath.apps.restclienttemplate:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.codepath.apps.restclienttemplate:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.codepath.apps.restclienttemplate:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart com.codepath.apps.restclienttemplate:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop com.codepath.apps.restclienttemplate:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.codepath.apps.restclienttemplate:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance com.codepath.apps.restclienttemplate:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor com.codepath.apps.restclienttemplate:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground com.codepath.apps.twitterclient:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart com.codepath.apps.twitterclient:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity com.codepath.apps.twitterclient:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.codepath.apps.twitterclient:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.codepath.apps.twitterclient:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth com.codepath.apps.twitterclient:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth com.codepath.apps.twitterclient:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode com.codepath.apps.twitterclient:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding com.codepath.apps.twitterclient:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.codepath.apps.twitterclient:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.codepath.apps.twitterclient:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart com.codepath.apps.twitterclient:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop com.codepath.apps.twitterclient:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.codepath.apps.twitterclient:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance com.codepath.apps.twitterclient:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor com.codepath.apps.twitterclient:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -6631,17 +6632,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01008f, 0x7f010090, 0x7f010091, 0x7f010092
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:tabBackground
+          @attr name com.codepath.apps.twitterclient:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6653,11 +6654,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabContentStart
+          @attr name com.codepath.apps.twitterclient:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6670,11 +6671,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:tabGravity
+          @attr name com.codepath.apps.twitterclient:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6685,11 +6686,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabIndicatorColor
+          @attr name com.codepath.apps.twitterclient:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6701,11 +6702,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabIndicatorHeight
+          @attr name com.codepath.apps.twitterclient:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6717,11 +6718,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabMaxWidth
+          @attr name com.codepath.apps.twitterclient:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6733,11 +6734,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabMinWidth
+          @attr name com.codepath.apps.twitterclient:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6750,11 +6751,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:tabMode
+          @attr name com.codepath.apps.twitterclient:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6766,11 +6767,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabPadding
+          @attr name com.codepath.apps.twitterclient:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6782,11 +6783,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabPaddingBottom
+          @attr name com.codepath.apps.twitterclient:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6798,11 +6799,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabPaddingEnd
+          @attr name com.codepath.apps.twitterclient:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6814,11 +6815,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabPaddingStart
+          @attr name com.codepath.apps.twitterclient:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6830,11 +6831,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabPaddingTop
+          @attr name com.codepath.apps.twitterclient:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6845,21 +6846,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabSelectedTextColor
+          @attr name com.codepath.apps.twitterclient:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:tabTextAppearance
+          @attr name com.codepath.apps.twitterclient:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6870,7 +6871,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:tabTextColor
+          @attr name com.codepath.apps.twitterclient:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -6887,7 +6888,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.codepath.apps.restclienttemplate:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.codepath.apps.twitterclient:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -6953,14 +6954,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.codepath.apps.restclienttemplate:textAllCaps
+          @attr name com.codepath.apps.twitterclient:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -6971,14 +6972,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled com.codepath.apps.restclienttemplate:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.codepath.apps.restclienttemplate:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.codepath.apps.restclienttemplate:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.codepath.apps.restclienttemplate:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled com.codepath.apps.restclienttemplate:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.codepath.apps.restclienttemplate:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.codepath.apps.restclienttemplate:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.codepath.apps.restclienttemplate:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled com.codepath.apps.twitterclient:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.codepath.apps.twitterclient:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.codepath.apps.twitterclient:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.codepath.apps.twitterclient:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled com.codepath.apps.twitterclient:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.codepath.apps.twitterclient:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.codepath.apps.twitterclient:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.codepath.apps.twitterclient:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -7009,7 +7010,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7019,11 +7020,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:counterEnabled
+          @attr name com.codepath.apps.twitterclient:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7033,31 +7034,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:counterMaxLength
+          @attr name com.codepath.apps.twitterclient:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:counterOverflowTextAppearance
+          @attr name com.codepath.apps.twitterclient:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:counterTextAppearance
+          @attr name com.codepath.apps.twitterclient:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7067,21 +7068,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:errorEnabled
+          @attr name com.codepath.apps.twitterclient:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:errorTextAppearance
+          @attr name com.codepath.apps.twitterclient:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -7091,17 +7092,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:hintAnimationEnabled
+          @attr name com.codepath.apps.twitterclient:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 9;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:hintTextAppearance
+          @attr name com.codepath.apps.twitterclient:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Theme.
@@ -7110,116 +7111,116 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.codepath.apps.restclienttemplate:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.codepath.apps.restclienttemplate:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.codepath.apps.restclienttemplate:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.codepath.apps.restclienttemplate:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.codepath.apps.restclienttemplate:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.codepath.apps.restclienttemplate:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.codepath.apps.restclienttemplate:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.codepath.apps.restclienttemplate:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.codepath.apps.restclienttemplate:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.codepath.apps.restclienttemplate:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.codepath.apps.restclienttemplate:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.codepath.apps.restclienttemplate:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.codepath.apps.restclienttemplate:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.codepath.apps.restclienttemplate:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.codepath.apps.restclienttemplate:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.codepath.apps.restclienttemplate:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.codepath.apps.restclienttemplate:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.codepath.apps.restclienttemplate:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.codepath.apps.restclienttemplate:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.codepath.apps.restclienttemplate:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.codepath.apps.restclienttemplate:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.codepath.apps.restclienttemplate:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.codepath.apps.restclienttemplate:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.codepath.apps.restclienttemplate:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.codepath.apps.restclienttemplate:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.codepath.apps.restclienttemplate:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.codepath.apps.restclienttemplate:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.codepath.apps.restclienttemplate:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.codepath.apps.restclienttemplate:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.codepath.apps.restclienttemplate:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.codepath.apps.restclienttemplate:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.codepath.apps.restclienttemplate:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.codepath.apps.restclienttemplate:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle com.codepath.apps.restclienttemplate:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme com.codepath.apps.restclienttemplate:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.codepath.apps.twitterclient:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.codepath.apps.twitterclient:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.codepath.apps.twitterclient:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.codepath.apps.twitterclient:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.codepath.apps.twitterclient:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.codepath.apps.twitterclient:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.codepath.apps.twitterclient:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.codepath.apps.twitterclient:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.codepath.apps.twitterclient:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.codepath.apps.twitterclient:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.codepath.apps.twitterclient:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.codepath.apps.twitterclient:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.codepath.apps.twitterclient:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.codepath.apps.twitterclient:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.codepath.apps.twitterclient:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.codepath.apps.twitterclient:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.codepath.apps.twitterclient:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.codepath.apps.twitterclient:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.codepath.apps.twitterclient:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.codepath.apps.twitterclient:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.codepath.apps.twitterclient:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.codepath.apps.twitterclient:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.codepath.apps.twitterclient:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.codepath.apps.twitterclient:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.codepath.apps.twitterclient:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.codepath.apps.twitterclient:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.codepath.apps.twitterclient:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.codepath.apps.twitterclient:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.codepath.apps.twitterclient:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.codepath.apps.twitterclient:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.codepath.apps.twitterclient:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.codepath.apps.twitterclient:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.codepath.apps.twitterclient:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle com.codepath.apps.twitterclient:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme com.codepath.apps.twitterclient:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.codepath.apps.restclienttemplate:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_borderlessButtonStyle com.codepath.apps.restclienttemplate:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.codepath.apps.restclienttemplate:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.codepath.apps.restclienttemplate:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.codepath.apps.restclienttemplate:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.codepath.apps.restclienttemplate:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.codepath.apps.restclienttemplate:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle com.codepath.apps.restclienttemplate:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall com.codepath.apps.restclienttemplate:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle com.codepath.apps.restclienttemplate:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle com.codepath.apps.restclienttemplate:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.codepath.apps.restclienttemplate:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.codepath.apps.restclienttemplate:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.codepath.apps.restclienttemplate:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.codepath.apps.restclienttemplate:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.codepath.apps.restclienttemplate:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.codepath.apps.restclienttemplate:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.codepath.apps.restclienttemplate:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.codepath.apps.restclienttemplate:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_controlBackground com.codepath.apps.restclienttemplate:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding com.codepath.apps.restclienttemplate:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme com.codepath.apps.restclienttemplate:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.codepath.apps.restclienttemplate:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.codepath.apps.restclienttemplate:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.codepath.apps.restclienttemplate:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.codepath.apps.restclienttemplate:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.codepath.apps.restclienttemplate:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.codepath.apps.restclienttemplate:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle com.codepath.apps.restclienttemplate:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.codepath.apps.restclienttemplate:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_imageButtonStyle com.codepath.apps.restclienttemplate:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.codepath.apps.restclienttemplate:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog com.codepath.apps.restclienttemplate:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.codepath.apps.restclienttemplate:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.codepath.apps.restclienttemplate:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.codepath.apps.restclienttemplate:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.codepath.apps.restclienttemplate:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.codepath.apps.restclienttemplate:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.codepath.apps.restclienttemplate:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.codepath.apps.restclienttemplate:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.codepath.apps.restclienttemplate:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.codepath.apps.restclienttemplate:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.codepath.apps.restclienttemplate:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.codepath.apps.restclienttemplate:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle com.codepath.apps.restclienttemplate:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle com.codepath.apps.restclienttemplate:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.codepath.apps.restclienttemplate:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_seekBarStyle com.codepath.apps.restclienttemplate:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.codepath.apps.restclienttemplate:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.codepath.apps.restclienttemplate:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.codepath.apps.restclienttemplate:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.codepath.apps.restclienttemplate:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.codepath.apps.restclienttemplate:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.codepath.apps.restclienttemplate:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.codepath.apps.restclienttemplate:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.codepath.apps.restclienttemplate:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.codepath.apps.restclienttemplate:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.codepath.apps.restclienttemplate:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.codepath.apps.restclienttemplate:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.codepath.apps.restclienttemplate:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.codepath.apps.restclienttemplate:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.codepath.apps.restclienttemplate:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.codepath.apps.restclienttemplate:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.codepath.apps.restclienttemplate:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.codepath.apps.restclienttemplate:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.codepath.apps.restclienttemplate:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.codepath.apps.restclienttemplate:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.codepath.apps.restclienttemplate:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.codepath.apps.restclienttemplate:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.codepath.apps.restclienttemplate:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor com.codepath.apps.restclienttemplate:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor com.codepath.apps.restclienttemplate:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle com.codepath.apps.restclienttemplate:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.codepath.apps.twitterclient:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_borderlessButtonStyle com.codepath.apps.twitterclient:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.codepath.apps.twitterclient:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.codepath.apps.twitterclient:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.codepath.apps.twitterclient:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.codepath.apps.twitterclient:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.codepath.apps.twitterclient:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle com.codepath.apps.twitterclient:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall com.codepath.apps.twitterclient:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle com.codepath.apps.twitterclient:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle com.codepath.apps.twitterclient:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.codepath.apps.twitterclient:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.codepath.apps.twitterclient:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.codepath.apps.twitterclient:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.codepath.apps.twitterclient:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.codepath.apps.twitterclient:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.codepath.apps.twitterclient:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.codepath.apps.twitterclient:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.codepath.apps.twitterclient:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_controlBackground com.codepath.apps.twitterclient:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding com.codepath.apps.twitterclient:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme com.codepath.apps.twitterclient:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.codepath.apps.twitterclient:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.codepath.apps.twitterclient:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.codepath.apps.twitterclient:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.codepath.apps.twitterclient:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.codepath.apps.twitterclient:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.codepath.apps.twitterclient:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle com.codepath.apps.twitterclient:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.codepath.apps.twitterclient:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_imageButtonStyle com.codepath.apps.twitterclient:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.codepath.apps.twitterclient:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog com.codepath.apps.twitterclient:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.codepath.apps.twitterclient:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.codepath.apps.twitterclient:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.codepath.apps.twitterclient:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.codepath.apps.twitterclient:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.codepath.apps.twitterclient:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.codepath.apps.twitterclient:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.codepath.apps.twitterclient:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.codepath.apps.twitterclient:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.codepath.apps.twitterclient:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.codepath.apps.twitterclient:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.codepath.apps.twitterclient:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle com.codepath.apps.twitterclient:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle com.codepath.apps.twitterclient:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.codepath.apps.twitterclient:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_seekBarStyle com.codepath.apps.twitterclient:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.codepath.apps.twitterclient:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.codepath.apps.twitterclient:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.codepath.apps.twitterclient:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.codepath.apps.twitterclient:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.codepath.apps.twitterclient:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.codepath.apps.twitterclient:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.codepath.apps.twitterclient:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.codepath.apps.twitterclient:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.codepath.apps.twitterclient:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.codepath.apps.twitterclient:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.codepath.apps.twitterclient:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.codepath.apps.twitterclient:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.codepath.apps.twitterclient:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.codepath.apps.twitterclient:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.codepath.apps.twitterclient:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.codepath.apps.twitterclient:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.codepath.apps.twitterclient:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.codepath.apps.twitterclient:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.codepath.apps.twitterclient:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.codepath.apps.twitterclient:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.codepath.apps.twitterclient:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.codepath.apps.twitterclient:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor com.codepath.apps.twitterclient:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor com.codepath.apps.twitterclient:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle com.codepath.apps.twitterclient:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -7363,37 +7364,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010105, 0x7f010106
         };
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionBarDivider
+          @attr name com.codepath.apps.twitterclient:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionBarItemBackground
+          @attr name com.codepath.apps.twitterclient:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionBarPopupTheme
+          @attr name com.codepath.apps.twitterclient:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7413,111 +7414,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:actionBarSize
+          @attr name com.codepath.apps.twitterclient:actionBarSize
         */
         public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionBarSplitStyle
+          @attr name com.codepath.apps.twitterclient:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionBarStyle
+          @attr name com.codepath.apps.twitterclient:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionBarTabBarStyle
+          @attr name com.codepath.apps.twitterclient:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionBarTabStyle
+          @attr name com.codepath.apps.twitterclient:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionBarTabTextStyle
+          @attr name com.codepath.apps.twitterclient:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionBarTheme
+          @attr name com.codepath.apps.twitterclient:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionBarWidgetTheme
+          @attr name com.codepath.apps.twitterclient:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionButtonStyle
+          @attr name com.codepath.apps.twitterclient:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionDropDownStyle
+          @attr name com.codepath.apps.twitterclient:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionMenuTextAppearance
+          @attr name com.codepath.apps.twitterclient:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7525,181 +7526,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionMenuTextColor
+          @attr name com.codepath.apps.twitterclient:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeBackground
+          @attr name com.codepath.apps.twitterclient:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeCloseButtonStyle
+          @attr name com.codepath.apps.twitterclient:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeCloseDrawable
+          @attr name com.codepath.apps.twitterclient:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeCopyDrawable
+          @attr name com.codepath.apps.twitterclient:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeCutDrawable
+          @attr name com.codepath.apps.twitterclient:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeFindDrawable
+          @attr name com.codepath.apps.twitterclient:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModePasteDrawable
+          @attr name com.codepath.apps.twitterclient:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModePopupWindowStyle
+          @attr name com.codepath.apps.twitterclient:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeSelectAllDrawable
+          @attr name com.codepath.apps.twitterclient:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeShareDrawable
+          @attr name com.codepath.apps.twitterclient:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeSplitBackground
+          @attr name com.codepath.apps.twitterclient:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeStyle
+          @attr name com.codepath.apps.twitterclient:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionModeWebSearchDrawable
+          @attr name com.codepath.apps.twitterclient:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionOverflowButtonStyle
+          @attr name com.codepath.apps.twitterclient:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:actionOverflowMenuStyle
+          @attr name com.codepath.apps.twitterclient:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:activityChooserViewStyle
+          @attr name com.codepath.apps.twitterclient:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:alertDialogButtonGroupStyle
+          @attr name com.codepath.apps.twitterclient:alertDialogButtonGroupStyle
         */
         public static final int Theme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7709,27 +7710,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:alertDialogCenterButtons
+          @attr name com.codepath.apps.twitterclient:alertDialogCenterButtons
         */
         public static final int Theme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:alertDialogStyle
+          @attr name com.codepath.apps.twitterclient:alertDialogStyle
         */
         public static final int Theme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:alertDialogTheme
+          @attr name com.codepath.apps.twitterclient:alertDialogTheme
         */
         public static final int Theme_alertDialogTheme = 94;
         /**
@@ -7745,117 +7746,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:autoCompleteTextViewStyle
+          @attr name com.codepath.apps.twitterclient:autoCompleteTextViewStyle
         */
         public static final int Theme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:borderlessButtonStyle
+          @attr name com.codepath.apps.twitterclient:borderlessButtonStyle
         */
         public static final int Theme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:buttonBarButtonStyle
+          @attr name com.codepath.apps.twitterclient:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:buttonBarNegativeButtonStyle
+          @attr name com.codepath.apps.twitterclient:buttonBarNegativeButtonStyle
         */
         public static final int Theme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:buttonBarNeutralButtonStyle
+          @attr name com.codepath.apps.twitterclient:buttonBarNeutralButtonStyle
         */
         public static final int Theme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:buttonBarPositiveButtonStyle
+          @attr name com.codepath.apps.twitterclient:buttonBarPositiveButtonStyle
         */
         public static final int Theme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:buttonBarStyle
+          @attr name com.codepath.apps.twitterclient:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#buttonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:buttonStyle
+          @attr name com.codepath.apps.twitterclient:buttonStyle
         */
         public static final int Theme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:buttonStyleSmall
+          @attr name com.codepath.apps.twitterclient:buttonStyleSmall
         */
         public static final int Theme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:checkboxStyle
+          @attr name com.codepath.apps.twitterclient:checkboxStyle
         */
         public static final int Theme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:checkedTextViewStyle
+          @attr name com.codepath.apps.twitterclient:checkedTextViewStyle
         */
         public static final int Theme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7866,11 +7867,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:colorAccent
+          @attr name com.codepath.apps.twitterclient:colorAccent
         */
         public static final int Theme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7881,11 +7882,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:colorButtonNormal
+          @attr name com.codepath.apps.twitterclient:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7896,11 +7897,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:colorControlActivated
+          @attr name com.codepath.apps.twitterclient:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7911,11 +7912,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:colorControlHighlight
+          @attr name com.codepath.apps.twitterclient:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7926,11 +7927,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:colorControlNormal
+          @attr name com.codepath.apps.twitterclient:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7941,11 +7942,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:colorPrimary
+          @attr name com.codepath.apps.twitterclient:colorPrimary
         */
         public static final int Theme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7956,11 +7957,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:colorPrimaryDark
+          @attr name com.codepath.apps.twitterclient:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7971,21 +7972,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:colorSwitchThumbNormal
+          @attr name com.codepath.apps.twitterclient:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#controlBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:controlBackground
+          @attr name com.codepath.apps.twitterclient:controlBackground
         */
         public static final int Theme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7997,51 +7998,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:dialogPreferredPadding
+          @attr name com.codepath.apps.twitterclient:dialogPreferredPadding
         */
         public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:dialogTheme
+          @attr name com.codepath.apps.twitterclient:dialogTheme
         */
         public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:dividerHorizontal
+          @attr name com.codepath.apps.twitterclient:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:dividerVertical
+          @attr name com.codepath.apps.twitterclient:dividerVertical
         */
         public static final int Theme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:dropDownListViewStyle
+          @attr name com.codepath.apps.twitterclient:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8053,21 +8054,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:dropdownListPreferredItemHeight
+          @attr name com.codepath.apps.twitterclient:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:editTextBackground
+          @attr name com.codepath.apps.twitterclient:editTextBackground
         */
         public static final int Theme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8075,71 +8076,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:editTextColor
+          @attr name com.codepath.apps.twitterclient:editTextColor
         */
         public static final int Theme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:editTextStyle
+          @attr name com.codepath.apps.twitterclient:editTextStyle
         */
         public static final int Theme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:homeAsUpIndicator
+          @attr name com.codepath.apps.twitterclient:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:imageButtonStyle
+          @attr name com.codepath.apps.twitterclient:imageButtonStyle
         */
         public static final int Theme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:listChoiceBackgroundIndicator
+          @attr name com.codepath.apps.twitterclient:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:listDividerAlertDialog
+          @attr name com.codepath.apps.twitterclient:listDividerAlertDialog
         */
         public static final int Theme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:listPopupWindowStyle
+          @attr name com.codepath.apps.twitterclient:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8151,11 +8152,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:listPreferredItemHeight
+          @attr name com.codepath.apps.twitterclient:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8167,11 +8168,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:listPreferredItemHeightLarge
+          @attr name com.codepath.apps.twitterclient:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8183,11 +8184,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:listPreferredItemHeightSmall
+          @attr name com.codepath.apps.twitterclient:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8199,11 +8200,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:listPreferredItemPaddingLeft
+          @attr name com.codepath.apps.twitterclient:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8215,31 +8216,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:listPreferredItemPaddingRight
+          @attr name com.codepath.apps.twitterclient:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:panelBackground
+          @attr name com.codepath.apps.twitterclient:panelBackground
         */
         public static final int Theme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:panelMenuListTheme
+          @attr name com.codepath.apps.twitterclient:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8251,181 +8252,181 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:panelMenuListWidth
+          @attr name com.codepath.apps.twitterclient:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:popupMenuStyle
+          @attr name com.codepath.apps.twitterclient:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:popupWindowStyle
+          @attr name com.codepath.apps.twitterclient:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:radioButtonStyle
+          @attr name com.codepath.apps.twitterclient:radioButtonStyle
         */
         public static final int Theme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:ratingBarStyle
+          @attr name com.codepath.apps.twitterclient:ratingBarStyle
         */
         public static final int Theme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:searchViewStyle
+          @attr name com.codepath.apps.twitterclient:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:seekBarStyle
+          @attr name com.codepath.apps.twitterclient:seekBarStyle
         */
         public static final int Theme_seekBarStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:selectableItemBackground
+          @attr name com.codepath.apps.twitterclient:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:selectableItemBackgroundBorderless
+          @attr name com.codepath.apps.twitterclient:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:spinnerDropDownItemStyle
+          @attr name com.codepath.apps.twitterclient:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:spinnerStyle
+          @attr name com.codepath.apps.twitterclient:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:switchStyle
+          @attr name com.codepath.apps.twitterclient:switchStyle
         */
         public static final int Theme_switchStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:textAppearanceLargePopupMenu
+          @attr name com.codepath.apps.twitterclient:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:textAppearanceListItem
+          @attr name com.codepath.apps.twitterclient:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:textAppearanceListItemSmall
+          @attr name com.codepath.apps.twitterclient:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:textAppearanceSearchResultSubtitle
+          @attr name com.codepath.apps.twitterclient:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:textAppearanceSearchResultTitle
+          @attr name com.codepath.apps.twitterclient:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:textAppearanceSmallPopupMenu
+          @attr name com.codepath.apps.twitterclient:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8433,11 +8434,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:textColorAlertDialogListItem
+          @attr name com.codepath.apps.twitterclient:textColorAlertDialogListItem
         */
         public static final int Theme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8445,31 +8446,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:textColorSearchUrl
+          @attr name com.codepath.apps.twitterclient:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:toolbarNavigationButtonStyle
+          @attr name com.codepath.apps.twitterclient:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:toolbarStyle
+          @attr name com.codepath.apps.twitterclient:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8479,11 +8480,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:windowActionBar
+          @attr name com.codepath.apps.twitterclient:windowActionBar
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8493,11 +8494,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:windowActionBarOverlay
+          @attr name com.codepath.apps.twitterclient:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8507,11 +8508,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:windowActionModeOverlay
+          @attr name com.codepath.apps.twitterclient:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8526,11 +8527,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:windowFixedHeightMajor
+          @attr name com.codepath.apps.twitterclient:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8545,11 +8546,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:windowFixedHeightMinor
+          @attr name com.codepath.apps.twitterclient:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8564,11 +8565,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:windowFixedWidthMajor
+          @attr name com.codepath.apps.twitterclient:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8583,11 +8584,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:windowFixedWidthMinor
+          @attr name com.codepath.apps.twitterclient:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8602,11 +8603,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:windowMinWidthMajor
+          @attr name com.codepath.apps.twitterclient:windowMinWidthMajor
         */
         public static final int Theme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8621,11 +8622,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:windowMinWidthMinor
+          @attr name com.codepath.apps.twitterclient:windowMinWidthMinor
         */
         public static final int Theme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8635,7 +8636,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:windowNoTitle
+          @attr name com.codepath.apps.twitterclient:windowNoTitle
         */
         public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
@@ -8646,29 +8647,29 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.codepath.apps.restclienttemplate:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.codepath.apps.restclienttemplate:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.codepath.apps.restclienttemplate:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.codepath.apps.restclienttemplate:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.codepath.apps.restclienttemplate:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.codepath.apps.restclienttemplate:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.codepath.apps.restclienttemplate:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.codepath.apps.restclienttemplate:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.codepath.apps.restclienttemplate:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.codepath.apps.restclienttemplate:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.codepath.apps.restclienttemplate:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.codepath.apps.restclienttemplate:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.codepath.apps.restclienttemplate:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.codepath.apps.restclienttemplate:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.codepath.apps.restclienttemplate:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.codepath.apps.restclienttemplate:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.codepath.apps.restclienttemplate:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.codepath.apps.restclienttemplate:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.codepath.apps.restclienttemplate:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.codepath.apps.restclienttemplate:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.codepath.apps.restclienttemplate:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.codepath.apps.restclienttemplate:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.codepath.apps.restclienttemplate:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.codepath.apps.twitterclient:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.codepath.apps.twitterclient:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.codepath.apps.twitterclient:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.codepath.apps.twitterclient:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.codepath.apps.twitterclient:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.codepath.apps.twitterclient:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.codepath.apps.twitterclient:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.codepath.apps.twitterclient:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.codepath.apps.twitterclient:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.codepath.apps.twitterclient:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.codepath.apps.twitterclient:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.codepath.apps.twitterclient:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.codepath.apps.twitterclient:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.codepath.apps.twitterclient:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.codepath.apps.twitterclient:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.codepath.apps.twitterclient:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.codepath.apps.twitterclient:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.codepath.apps.twitterclient:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.codepath.apps.twitterclient:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.codepath.apps.twitterclient:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.codepath.apps.twitterclient:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.codepath.apps.twitterclient:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.codepath.apps.twitterclient:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -8718,7 +8719,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8728,21 +8729,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:collapseContentDescription
+          @attr name com.codepath.apps.twitterclient:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:collapseIcon
+          @attr name com.codepath.apps.twitterclient:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8754,11 +8755,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:contentInsetEnd
+          @attr name com.codepath.apps.twitterclient:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8770,11 +8771,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:contentInsetLeft
+          @attr name com.codepath.apps.twitterclient:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8786,11 +8787,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:contentInsetRight
+          @attr name com.codepath.apps.twitterclient:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8802,21 +8803,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:contentInsetStart
+          @attr name com.codepath.apps.twitterclient:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:logo
+          @attr name com.codepath.apps.twitterclient:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8826,11 +8827,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:logoDescription
+          @attr name com.codepath.apps.twitterclient:logoDescription
         */
         public static final int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8842,11 +8843,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:maxButtonHeight
+          @attr name com.codepath.apps.twitterclient:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8856,31 +8857,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:navigationContentDescription
+          @attr name com.codepath.apps.twitterclient:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:navigationIcon
+          @attr name com.codepath.apps.twitterclient:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:popupTheme
+          @attr name com.codepath.apps.twitterclient:popupTheme
         */
         public static final int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8890,21 +8891,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:subtitle
+          @attr name com.codepath.apps.twitterclient:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:subtitleTextAppearance
+          @attr name com.codepath.apps.twitterclient:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8915,11 +8916,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:subtitleTextColor
+          @attr name com.codepath.apps.twitterclient:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#title}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8929,11 +8930,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:title
+          @attr name com.codepath.apps.twitterclient:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8945,11 +8946,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:titleMarginBottom
+          @attr name com.codepath.apps.twitterclient:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8961,11 +8962,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:titleMarginEnd
+          @attr name com.codepath.apps.twitterclient:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8977,11 +8978,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:titleMarginStart
+          @attr name com.codepath.apps.twitterclient:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8993,11 +8994,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:titleMarginTop
+          @attr name com.codepath.apps.twitterclient:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9009,21 +9010,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:titleMargins
+          @attr name com.codepath.apps.twitterclient:titleMargins
         */
         public static final int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:titleTextAppearance
+          @attr name com.codepath.apps.twitterclient:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9034,7 +9035,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:titleTextColor
+          @attr name com.codepath.apps.twitterclient:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a View.
@@ -9045,9 +9046,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.codepath.apps.restclienttemplate:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.codepath.apps.restclienttemplate:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.codepath.apps.restclienttemplate:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.codepath.apps.twitterclient:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.codepath.apps.twitterclient:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.codepath.apps.twitterclient:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -9072,7 +9073,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9084,11 +9085,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:paddingEnd
+          @attr name com.codepath.apps.twitterclient:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9100,17 +9101,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:paddingStart
+          @attr name com.codepath.apps.twitterclient:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.codepath.apps.restclienttemplate:theme
+          @attr name com.codepath.apps.twitterclient:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -9120,8 +9121,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.codepath.apps.restclienttemplate:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.codepath.apps.restclienttemplate:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.codepath.apps.twitterclient:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.codepath.apps.twitterclient:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -9137,7 +9138,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9148,11 +9149,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.codepath.apps.restclienttemplate:backgroundTint
+          @attr name com.codepath.apps.twitterclient:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.codepath.apps.restclienttemplate.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.codepath.apps.twitterclient.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9168,7 +9169,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.codepath.apps.restclienttemplate:backgroundTintMode
+          @attr name com.codepath.apps.twitterclient:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.

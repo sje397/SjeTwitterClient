@@ -34,6 +34,7 @@ public class UserTimelineFragment extends TweetsListFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         populateTimeline(1, 0, true);
+        setImagesEnabled(false);
     }
 
     @Override

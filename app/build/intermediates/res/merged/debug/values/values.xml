@@ -415,6 +415,7 @@
     <string name="title_activity_timeline">Home Timeline</string>
     <string name="tweet_button">Tweet</string>
     <string name="tweet_prompt">Enter text...</string>
+    <string name="user_title">\u0040%1$s (%2$s)</string>
     <!-- From: file:/Users/sellis/repo/SjeTwitterClient/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

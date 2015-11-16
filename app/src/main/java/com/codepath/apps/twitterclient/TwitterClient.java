@@ -5,6 +5,7 @@ import org.scribe.builder.api.FlickrApi;
 import org.scribe.builder.api.TwitterApi;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.codepath.oauth.OAuthBaseClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
@@ -81,10 +82,12 @@ public class TwitterClient extends OAuthBaseClient {
     }
 
     public void getUserInfo(String screenName, JsonHttpResponseHandler handler) {
-        if(screenName == null) {
+        if(screenName == null || screenName.isEmpty()) {
             getMyInfo(handler);
+            return;
         }
 
+        Log.d("TWITTER_CLIENT", "getUserInfo, screenName = " + screenName);
         String apiUrl = getApiUrl("users/lookup.json");
         // Can specify query string params directly or through RequestParams.
         RequestParams params = new RequestParams();
@@ -94,6 +97,7 @@ public class TwitterClient extends OAuthBaseClient {
     }
 
     private void getMyInfo(JsonHttpResponseHandler handler) {
+        Log.d("TWITTER_CLIENT", "getMyInfo");
         String apiUrl = getApiUrl("account/verify_credentials.json");
         // Can specify query string params directly or through RequestParams.
         client.get(apiUrl, null, handler);

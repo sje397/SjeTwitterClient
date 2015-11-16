@@ -628,9 +628,9 @@ int id homeAsUp 0x7f0d000f
 int id icon 0x7f0d0042
 int id ifRoom 0x7f0d0034
 int id image 0x7f0d003f
-int id imageView 0x7f0d0069
 int id info 0x7f0d008d
 int id item_touch_helper_previous_elevation 0x7f0d0005
+int id ivPic 0x7f0d0069
 int id ivProfile 0x7f0d007f
 int id left 0x7f0d0022
 int id line1 0x7f0d0087
@@ -1304,6 +1304,7 @@ int string status_bar_notification_info_overflow 0x7f070017
 int string title_activity_timeline 0x7f070021
 int string tweet_button 0x7f070022
 int string tweet_prompt 0x7f070023
+int string user_title 0x7f070024
 int style AlertDialog_AppCompat 0x7f0a0080
 int style AlertDialog_AppCompat_Light 0x7f0a0081
 int style Animation_AppCompat_Dialog 0x7f0a0082

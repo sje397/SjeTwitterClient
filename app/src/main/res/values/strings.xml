@@ -14,4 +14,6 @@
 
     <string name="followers_text">%d Followers</string>
     <string name="following_text">Following %d</string>
+    <string name="user_title">\u0040%1$s (%2$s)</string>
+
 </resources>

@@ -1,6 +1,7 @@
 package com.codepath.apps.twitterclient.fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -10,11 +11,13 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.activeandroid.query.Delete;
 import com.activeandroid.query.From;
 import com.activeandroid.query.Select;
+import com.codepath.apps.twitterclient.ProfileActivity;
 import com.codepath.apps.twitterclient.R;
 import com.codepath.apps.twitterclient.TwitterApplication;
 import com.codepath.apps.twitterclient.TwitterClient;
@@ -38,6 +41,7 @@ public abstract class TweetsListFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        Log.d("DEBUG", "Tweets list fragment, onCreateView");
         View v = inflater.inflate(R.layout.fragment_tweets_list, container, false);
 
         lvTweets = (ListView) v.findViewById(R.id.lvTweets);
@@ -83,7 +87,7 @@ public abstract class TweetsListFragment extends Fragment {
             new Delete().from(User.class).execute();
         }
         for(final Tweet tweet: newTweets) {
-            tweet.getUser().save();
+            //tweet.getUser().save();
             tweet.save();
         }
 
@@ -93,7 +97,8 @@ public abstract class TweetsListFragment extends Fragment {
     }
 
     protected void insertTopTweet(Tweet newTweet) {
-        newTweet.getUser().save();
+        //newTweet.getUser().save();
+        Log.d("TLF", "newTweet: " + newTweet + ", tweets: " + tweets + ", adapter: " + adapter);
         newTweet.save();
         tweets.add(0, newTweet);
         adapter.notifyDataSetChanged();
@@ -124,5 +129,9 @@ public abstract class TweetsListFragment extends Fragment {
         ConnectivityManager connectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
         return activeNetworkInfo != null && activeNetworkInfo.isConnectedOrConnecting();
+    }
+
+    protected void setImagesEnabled(boolean enabled) {
+        adapter.setImagesEnabled(enabled);
     }
 }

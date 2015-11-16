@@ -1,12 +1,18 @@
 package com.codepath.apps.twitterclient.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.Toast;
 
 import com.activeandroid.query.Delete;
 import com.activeandroid.query.From;
 import com.activeandroid.query.Select;
+import com.codepath.apps.twitterclient.ProfileActivity;
 import com.codepath.apps.twitterclient.TwitterClient;
 import com.codepath.apps.twitterclient.models.Tweet;
 import com.codepath.apps.twitterclient.models.User;
@@ -21,6 +27,15 @@ import java.text.ParseException;
 import java.util.List;
 
 public class HomeTimelineFragment extends TweetsListFragment {
+    public HomeTimelineFragment() {
+        super();
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return super.onCreateView(inflater, container, savedInstanceState);
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
